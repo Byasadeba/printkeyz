@@ -12,15 +12,13 @@ export default function Header() {
   return (
     <header className="w-full border-b border-[#e7dcc7] bg-[#fffaf2]">
       <div
-        className="
-          mx-auto flex max-w-6xl items-center justify-between
+        className="mx-auto flex max-w-6xl items-center justify-between
           px-4 py-3
           xs:px-5
           sm:px-6 sm:py-4
           lg:px-8
           3xl:max-w-7xl
-          4k:max-w-[1600px]
-        "
+          4k:max-w-[1600px]"
       >
         {/* Logo */}
         <div className="flex items-center gap-2">

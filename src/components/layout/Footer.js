@@ -4,15 +4,13 @@ export default function Footer() {
   return (
     <footer className="w-full border-t border-[#e7dcc7] bg-[#fffaf2]">
       <div
-        className="
-          mx-auto flex max-w-6xl flex-col items-start justify-between
+        className="mx-auto flex max-w-6xl flex-col items-start justify-between
           gap-6 px-4 py-8
           xs:px-5
           sm:flex-row sm:items-center sm:px-6 sm:py-10
           lg:px-8 lg:py-12
           3xl:max-w-7xl
-          4k:max-w-[1600px]
-        "
+          4k:max-w-[1600px]"
       >
         {/* Contact info */}
         <div className="w-full space-y-3 sm:w-2/3">
