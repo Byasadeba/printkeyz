@@ -29,7 +29,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',  // Your Next.js frontend
+  origin: 'http://localhost:3000' || "https://printkeyz.vercel.app/",  // Your Next.js frontend
   credentials: true  // For cookies/sessions
 }));
 
