@@ -12,6 +12,7 @@
 
 const express = require("express");
 const dotenv = require("dotenv");
+const cors = require("cors");
 dotenv.config();
 require("./src/config/passport");
 const connectDB = require("./src/config/db");
@@ -22,12 +23,26 @@ const cookieParser = require("cookie-parser");
 
 connectDB();
 
+
 const app = express();
+
+
+
+app.use(cors({
+  origin: 'http://localhost:3000',  // Your Next.js frontend
+  credentials: true  // For cookies/sessions
+}));
+
+
 app.use(express.json());
 app.use(cookieParser());
 
 // Routes
 app.use("/api/auth", authRoutes);
+
+app.get('/', (req, res) => {
+  res.json({ message: 'API server running on port 5000' });
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
