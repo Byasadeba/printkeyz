@@ -50,7 +50,7 @@ router.get(
       sameSite: "lax",
     });
 
-    res.redirect("http://localhost:3001");
+     res.redirect(`${process.env.FRONTEND_URL}/auth/google/callback`);
   }
 );
 
