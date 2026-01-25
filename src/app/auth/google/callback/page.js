@@ -6,7 +6,7 @@ export default function GoogleCallback() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/catalog');
+    router.replace('/');
   }, []);
 
   return <p>Signing you in...</p>;
