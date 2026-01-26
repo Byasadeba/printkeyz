@@ -47,8 +47,7 @@ export default function HowItWorks() {
               className={`flex items-start gap-3 cursor-pointer transition-all duration-300 w-full ${isActive ? "md:flex-[2]" : "md:flex-1"}`}
             >
               {/* Circle */}
-              <div
-                className={`flex h-12 w-12 items-center justify-center rounded-full border-2 shrink-0${isActive? "border-[#7dd3fc] bg-[#ecfeff]": "border-gray-300 bg-white"}transition`}
+              <div className={`flex h-12 w-12 items-center justify-center rounded-full border-2 shrink-0 transition ${isActive ? "border-[#7dd3fc] bg-[#ecfeff]" : "border-gray-300 bg-white"}`}
               >
                 <span className="text-gray-800">{step.icon}</span>
               </div>

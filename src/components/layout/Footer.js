@@ -30,26 +30,26 @@ export default function Footer() {
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#d4873b] text-white sm:h-9 sm:w-9">
                 @
               </span>
-              <span>info@printkeyz.com</span>
+              <span>printkeyz@hotmail.com</span>
             </div>
 
             <div className="flex items-center gap-2">
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#d4873b] text-white sm:h-9 sm:w-9">
                 ☎
               </span>
-              <span>+001 35268 948</span>
+              <span>+91 6363672939</span>
             </div>
 
             <div className="flex items-center gap-2">
               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#d4873b] text-white sm:h-9 sm:w-9">
-                ❖
+                📍
               </span>
-              <span>Henopri, preeniyese secti, kontakt</span>
+              <span>Location - Bangalore, chennai</span>
             </div>
           </div>
 
           <p className="pt-3 text-[10px] text-gray-500 sm:text-xs lg:text-sm 4k:text-base">
-            Flespeyyes&apos;loo toon tristseut bene imots and sonnee betson
+           Your Memories, Molded in Trust.
           </p>
         </div>
 

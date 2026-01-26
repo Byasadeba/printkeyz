@@ -146,7 +146,7 @@ export default function Header() {
           <Link href="/customize" onClick={closeMenu} className="text-gray-800 hover:text-black">
             Customize
           </Link>
-          <Link href="/explore" className="text-gray-700 hover:text-black">
+          <Link href="/explore" onClick={closeMenu} className="text-gray-800 hover:text-black">
               Explore
             </Link>
           <Link href="/testimonials" onClick={closeMenu} className="text-gray-800 hover:text-black">
